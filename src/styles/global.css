@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
+:root {
+
+    --brandColor: #07273C;
+    --accentColor: #FF7010;
+    --secondoryColor:#031D2E;
+}
+
 @tailwind utilities;
