@@ -25,3 +25,11 @@ body {
 }
 
 @tailwind utilities;
+
+@layer components {
+    .center {
+      @apply flex items-center justify-center
+    }
+
+    
+  }

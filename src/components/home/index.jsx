@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './header'
 import About from './about'
 import Service from './service'
+import Testimonial from './testimonial'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
 <About />
 
 <Service/>
+<Testimonial/>
 
     </div>
   )
