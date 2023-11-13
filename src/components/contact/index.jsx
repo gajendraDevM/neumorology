@@ -1,11 +1,12 @@
-import React from 'react'
-
+import React, { useState, useEffect } from 'react';
+import ContactPage from './form'
+import Header from '../shared/header';
 export default function Contact() {
-  return (
-    <div className='h-[750px] bg-[--secondoryColor] flex items-center justify-center'>
-
-<h1 className='text-4xl text-[#3380a3]'>Contact Page Comming Soon</h1>
-
+  return  <div className='contact' >
+<Header title="Contact Us"/>
+<br/>
+<br/>
+<ContactPage/>
     </div>
-  )
+  
 }

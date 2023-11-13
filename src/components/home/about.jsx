@@ -36,7 +36,7 @@ export default function About() {
 
                 <div className=' col-span-3 flex items-center justify-start'>
 <div>
-                 <h3 className='text-xl text-white mb-2' style={{fontFamily:"var(--headerFont)"}}>Contact Our Expert Astrologers</h3>
+                 <h3 className='text-xl text-white mb-2' style={{fontFamily:"var(--headerFont)"}}>Contact Our Expert Numerologist</h3>
 <h2 className='text-3xl font-bold text-[var(--accentColor)]'>{`+ (91) 09011235111`}</h2>   </div>
                 </div>
 
