@@ -10,6 +10,32 @@ export default function Testimonial() {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   const testimonialData = [
@@ -39,7 +65,7 @@ export default function Testimonial() {
     <div style={{ backgroundImage: `url(${bgt})` }} className="py-6">
       <br />
       <br />
-      <div className="container mx-auto p-6 w-[65%] ">
+      <div className="container mx-auto p-6 md:w-[65%] ">
         <div className="flex justify-center">
           <Title title="Testimonial" />
         </div>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 import { useForm, ValidationError } from '@formspree/react';
-import { FaWhatsapp, FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa';
+import { FaWhatsapp, FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaMapMarkerAlt } from 'react-icons/fa';
 
 function ContactPage() {
 
@@ -36,30 +36,46 @@ function ContactPage() {
     
     {
       icon:FaWhatsapp,
-      link:"",
+      link:"https://api.whatsapp.com/send?phone=9011235111",
       color:"text-[#009113]",
       title:"Whatsapp"
     },
     {
     icon:FaFacebook,
-    link:"",
+    link:"https://www.facebook.com/vienaayaksavairam/",
     color:"text-[#1877F2]",
     title:"Facebook"
   },
   {
     icon:FaInstagram,
-    link:"",
+    link:"https://instagram.com/ichlkranji_numerrology?igshid=NTA5ZTk1NTc=",
     color:"text-[#fc179c]",
     title:"Instagram"
 
   },
   {
     icon:FaYoutube,
-    link:"",
+    link:"https://youtube.com/@ichlkranjinumerrology5066",
     color:"text-[#C4302b]",
     title:"Youtube"
 
-  }]
+  },
+  {
+    icon:FaTwitter,
+    link:"https://twitter.com/vienaayak?t=twcEkrww6SbNe3RBBKcuhQ&s=09",
+    color:"text-[#19b9e0]",
+    title:"Twitter"
+
+  }
+,
+  {
+    icon:FaMapMarkerAlt,
+    link:"https://g.co/kgs/wyS8y5",
+    color:"text-[#e01919]",
+    title:"Google Map"
+
+  }
+]
 
 
   return (
@@ -127,21 +143,28 @@ function ContactPage() {
 <div>
   
 <div className=" p-5 rounded-lg text-gray-400  text-center  ">
-    Stay connected and updated with our latest news by following us on our social media links.
+    <div className='flex flex-col justify-center  gap-4'>
+    {/* <FaMapMarkerAlt className='text-xl text-red-700' /> : Solage Mala, Ichalkaranji, Maharashtra 416121 */}
+   <p className='font-semibold' > Address </p> 
+    <p> Solage Mala, Ichalkaranji, Maharashtra 416121</p>
+      </div> 
+    <hr className='py-2'/>
+ 
+   <p  >Stay connected with our social media links.</p> 
 </div>
 
-<br/>
-<ul className='flex justify-center flex-col items-center gap-y-4'>
+
+<ul className='flex justify-center flex-col items-center gap-y-1'>
   {
     socialmedia.map((item, i)=>{
 
       const {icon:SocialIcon} = item
 
-      return <li key={i} className=' flex gap-x-4 items-center justify-start '>
+      return <a href={item.link} key={i}  target='new_tab'><li className=' flex gap-x-4 items-center justify-start '>
         <SocialIcon className={` text-3xl text-[var(--accentColor)]  cursor-pointer rounded-full bg-brand p-[5px]`}/>
       <h2 className='text-left text-[#f5f5f5]'>{item.title}</h2>
       
-      </li>
+      </li></a>
     })
   }
 </ul></div>

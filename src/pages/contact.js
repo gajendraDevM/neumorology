@@ -13,4 +13,4 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>Contact Page</title>
+export const Head = () => <title>Contact Us</title>

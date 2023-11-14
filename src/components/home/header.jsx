@@ -30,12 +30,12 @@ export default function Header() {
 {/* <h1 className='text-6xl' style={{fontFamily:"var(--headerFont)"}}>Knowledge, solutions and many more
  <br/> Open until midnight tomorrow</h1> */}
 <br/>
-<p className='text-xl opacity-70 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores a autem recusandae architecto <br /> laboriosam,   totam quod temporibus esse tenetur veniam.</p>
+<p className='text-xl opacity-70 '>Small mistake in name can destroy life. So choose name means pronounciation of name as per kundali and increase ur income. Adding extra character alphabet does not mean anything. Anil Ambani suffered due to wrong name. </p>
  <br/>
- <Button text="Read More"/>
+ <Button link='contact' text="Contact Us"/>
     </div>
   </div>
-  <div className="col-span-3 flex items-center justify-start md:block hidden ">
+  <div className="col-span-3 md:flex items-center justify-start  hidden ">
 
 <img src={zudicImg} alt="" className=" w-[600px] animate-spin" />
 

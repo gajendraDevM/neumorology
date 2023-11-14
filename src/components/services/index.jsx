@@ -1,10 +1,13 @@
 import React from 'react'
+import Header from '../shared/header'
+import Service from '../home/service'
 
 export default function Services() {
   return (
-    <div className='h-[750px] bg-[--secondoryColor] flex items-center justify-center'>
+    <div className=''>
 
-<h1 className='text-4xl text-[#3380a3]'> Service Page Comming Soon</h1>
+<Header title="Services"/>
+<Service/>
 
     </div>
   )
