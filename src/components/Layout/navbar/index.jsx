@@ -32,13 +32,13 @@ export default function Navbar() {
     ] 
 
   return (
-    <div className=' bg-[--brandColor]  px-5 sticky top-0 z-30 '  >
-        <div className='flex items-center w-[85%] mx-auto h-16'>
+    <div className=' bg-[--brandColor]  md:px-5 px-2 sticky top-0 z-30 '  >
+        <div className='flex items-center md:w-[85%] w-[90%] mx-auto h-16'>
         <div>
        {/* <h1 className='text-white text-2xl opacity-50'>Ichlkranji</h1>    */}
        <img src={logo} className='w-12' alt="" />
         </div>
-        <div className=' w-[85%] mx-auto flex items-center justify-end '>
+        <div className=' md:w-[85%] w-[90%] mx-auto flex items-center justify-end '>
    <div className='hidden md:block' ><NavLink data={navData}/></div> 
    <div className='md:hidden block ' onClick={()=>setOpen(!open)} >
 {  open ? <MdClose className='text-white text-2xl cursor-pointer' /> :   <GiHamburgerMenu className='text-white text-2xl cursor-pointer' />
@@ -50,7 +50,7 @@ export default function Navbar() {
 
 </div>
 </div>
-{ open && <div className='flex items-center ml-5 p-4'>
+{ open && <div className='flex items-center md:ml-5 ml-0 p-4'>
     <MobileView data={navData} />
 </div>}
 </div>

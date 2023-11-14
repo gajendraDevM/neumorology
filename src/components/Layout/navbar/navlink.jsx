@@ -5,7 +5,7 @@ import React from 'react';
 
 const NavLink = ({ data, isMobile }) => {
   return (
-    <ul className={ isMobile ? ` flex flex-col items-center text-white capitalize text-xl ` : `flex gap-6 text-white capitalize text-xl`}>
+    <ul className={ isMobile ? ` flex flex-col items-start text-white capitalize text-xl ` : `flex gap-6 text-white capitalize text-xl`}>
  {
     data.map((item, i)=>{
 
