@@ -1,19 +1,16 @@
 import React from 'react'
 import Title from '../shared/title'
-import {AiFillCar} from 'react-icons/ai'
-import {FaBuilding, FaBaby} from 'react-icons/fa'
-import { BsPersonVideo} from 'react-icons/bs'
+import Button from '../shared/button'
 
-export default function Service() {
 
-    const cards = [
-        { title: "Vehicle Number", description: "Choosing a vehicle number that resonates with your birthdate or personal numerology can enhance the harmony and alignment between you and your vehicle.", imageSrc:  <AiFillCar/> },
-        { title: "Company Name", description: "Choosing a company name is a crucial decision, as it plays a significant role in branding and representing your business. ", imageSrc: <FaBuilding/> },
-        { title: "Born Baby Name", description: "DChoosing a name for a newborn baby is a highly personal and meaningful decision for parents", imageSrc: <FaBaby/> },
-        { title: "Life Time Membership", description: "A lifetime membership typically refers to a membership or subscription that provides access or benefits for the duration of a person's life or the existence of the organization offering it. ", imageSrc: <BsPersonVideo/> },
-        { title: "Vehicle Number", description: "Choosing a vehicle number that resonates with your birthdate or personal numerology can enhance the harmony and alignment between you and your vehicle.", imageSrc:  <AiFillCar/> },
-        { title: "Company Name", description: "Choosing a company name is a crucial decision, as it plays a significant role in branding and representing your business. ", imageSrc: <FaBuilding/> },
-    ];
+export default function Service({cards, isHome}) {
+
+ 
+  // { title: "Signature", price:"₹1,500.00", description: "Make your signature strong with auspicious numerology and with precise guidance of graphology ", imageSrc: <BsPersonVideo/> },
+  // { title: "Mobile Number", price:"₹1,500.00", description: "Numbers plays a vital role in your life and so does Your mobile number is important. It shows your identity. Let's make it valuable with numerology.", imageSrc:  <AiFillCar/> },
+  //    { title: "Name correction", price:"₹8,700.00", description: "Your name is not an accident, It has to many vibes,destiny,and power. A little change in your name makes a very big difference in your life. Same can be improved with the help of number science. Change it with numerology.100% guaranteed result", imageSrc: <FaBuilding/> },
+  // { title: "Bank A/c. numbers", price:"₹555.00", description: "There is a hidden awakened power in every number used by the person. We just need to use good numbers for ourselves. This thing is applicable for all types of numbers, even for bank account numbers.", imageSrc: <FaBuilding/> },
+
 
   return (
     <div className='bg-[var(--brandColor)] py-4'>
@@ -37,11 +34,20 @@ export default function Service() {
 </div>
          <h2 className='text-xl text-white text-center mb-2' style={{fontFamily:"var(--headerFont)"}}>{card.title}</h2>
          <p className='text-gray-400 text-center text-sm' >{card.description}</p>
+         <hr className='opacity-30 my-4'/>
+                  <p className='text-gray-400 text-center text-md' style={{fontFamily:"var(--headerFont)"}} >Price: <b className='text-[var(--accentColor)]' >{card.price}/-</b></p>
+
          </div>
                     </div>
                 ))}
             </div>
+            <br/>
+     {  isHome &&         <div className='flex justify-center items-center' >
+      <Button link="/services" text="All services"/>
+</div>}
         </div>
+
+
 
         <br/>
       <br/>

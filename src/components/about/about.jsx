@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutImg from '../../images/bg_cont.jpg'
+import aboutImg from '../../images/abt.jpg'
 export default function About() {
   return (
     <div  className=" grid grid-cols-6 gap-4" >
