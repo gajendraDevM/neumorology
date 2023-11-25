@@ -3,6 +3,8 @@ import Slider from "react-slick";
 import bgt from "../../images/bgt.jpg";
 import Title from "../shared/title";
 import { MdFormatQuote } from "react-icons/md";
+import Button from '../shared/button'
+
 export default function Testimonial() {
   const settings = {
     dots: true,
@@ -95,10 +97,20 @@ export default function Testimonial() {
             );
           })}
         </Slider>
+        <br />
+      <br />
+      <div className="flex justify-center" >
+        <a href='https://www.google.com/search?q=Ichlkranji+numerrology&ludocid=4965962100242241357&gsas=1&client=ms-android-transsion&lsig=AB86z5XuF-L2ujNnwGQszOoAvrA4&kgs=c053df0cb7f12712&shndl=-1&shem=lssle&source=sh/x/kp/local/2' className='px-6 py-2 font-light uppercase rounded-full text-white text-xl bg-[var(--accentColor)]
+  hover:bg-[#5F7A95] transition-all ease-in-out mx-auto
+  '> Read More Review</a>
+</div>
       </div>
 
       <br />
       <br />
+
+
+
     </div>
   );
 }

@@ -1,5 +1,4 @@
 import React from 'react'
-import bg from '../../../public/static/bg1.jpg'
 import zudicImg from '../../images/zodiac.png'
 import Button from '../shared/button'
 import {TypeAnimation} from 'react-type-animation'
@@ -30,7 +29,7 @@ export default function Header() {
 {/* <h1 className='text-6xl' style={{fontFamily:"var(--headerFont)"}}>Knowledge, solutions and many more
  <br/> Open until midnight tomorrow</h1> */}
 <br/>
-<p className='md:text-xl text-lg opacity-80 '>Small mistake in name can destroy life. So choose name means pronounciation of name as per kundali and increase ur income. Adding extra character alphabet does not mean anything. Anil Ambani suffered due to wrong name. </p>
+<p className='md:text-xl text-sm mt-2 opacity-80 '>Ichlkranji numerology has been providing proper guidance in numerology since 2013 and is giving auspicious results for the numbers and names used in it. According to the date of birth of different persons, how should their auspicious name be, what type of mobile number, signature, vehicle number, which color to use or avoid and other types of proper and prompt guidance is given through Numerology. </p>
  <br/>
  <Button link='contact' text="Contact Us"/>
     </div>

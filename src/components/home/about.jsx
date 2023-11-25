@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from '../shared/title'
 import bg2 from '../../images/bg2.jpg'
-import about from '../../images/aboutus.jpg'
+import about from '../../images/bgaa.jpeg'
 import Button from '../shared/button'
 import {BiSolidPhoneCall} from 'react-icons/bi'
 export default function About() {
@@ -21,8 +21,10 @@ export default function About() {
                  <br/>
                  <p className='text-white md:text-lg text-[16px]  font-[400]  opacity-70 '>
               
-                 Ichlkranji Numerology is a belief in the mystical significance of numbers and their influence on human life. It's often associated with divinatory arts and is considered a form of pseudoscience. Practitioners of numerology believe that numbers can reveal information about a person's character, talents, strengths, weaknesses, and even predict their future.
-                 </p>
+                 Speciality : name solutions according numerrology by individual dates. Name solutions for company and product with catchy and meaningful. Name solutions for born baby names with devotion and positive meaning. 
+<br/>
+                 Other specialization : providing lucky colors for branding. Providing graphology tips for company logo and individual signature                 
+                     </p>
                  <br/>
 
                  <Button link="/about" text="Read More"/>

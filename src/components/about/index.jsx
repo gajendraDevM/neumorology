@@ -31,8 +31,7 @@ export default function About() {
 
   <AboutComponent/>
 <br/><br/>
-  <div className="py-4">
-      {/* <h1 className="text-3xl text-white font-bold mb-4">Neuromorality </h1> */}
+  {/* <div className="py-4">
       <ul className="space-y-1">
         {neuromoralitySentences.map((sentence, index) => (
           <li key={index}>
@@ -42,7 +41,7 @@ export default function About() {
           </li>
         ))}
       </ul>
-    </div>
+    </div> */}
 
 </div>
 
