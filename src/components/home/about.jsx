@@ -6,7 +6,7 @@ import Button from '../shared/button'
 import {BiSolidPhoneCall} from 'react-icons/bi'
 export default function About() {
   return (
-    <div className='h-min-[700px]  ' style={{backgroundImage:`url('${bg2}')`}}>
+    <div className='h-min-[700px] pb-8  ' style={{backgroundImage:`url('${bg2}')`}}>
 
         <div className="grid grid-cols-1  sm:grid-cols-2 h-full md:p-5 p-2 pb-5 container  mx-auto gap-14">
             <div className='flex items-center justify-end' >
@@ -40,7 +40,11 @@ export default function About() {
                 <div className=' col-span-5 md:col-span-3 flex items-center justify-start'>
 <div>
                  <h3 className='text-xl text-white mb-2' style={{fontFamily:"var(--headerFont)"}}>Contact Our Expert Numerologist</h3>
-<h2 className='md:text-3xl text-2xl font-bold text-[var(--accentColor)]'>{`+ (91) 9011235111`}</h2>   </div>
+          <a href='tel:+91011235111'>
+            <h2 className='md:text-3xl text-2xl font-bold text-[var(--accentColor)]'>{`+ (91) 9011235111`}</h2> 
+            </a>  
+  
+  </div>
                 </div>
 
                  </div>

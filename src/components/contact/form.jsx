@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
 import { useForm, ValidationError } from '@formspree/react';
-import { FaWhatsapp, FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaWhatsapp, FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaMapMarkerAlt, FaMailBulk } from 'react-icons/fa';
+import { MdMail } from "react-icons/md";
 
 function ContactPage() {
 
@@ -73,6 +74,12 @@ function ContactPage() {
     link:"https://g.co/kgs/wyS8y5",
     color:"text-[#e01919]",
     title:"Google Map"
+
+  },  {
+    icon:MdMail,
+    link:"mailto:ichalakranjinumerology@gmail.com",
+    color:"text-[#e01919]",
+    title:"ichalakranjinumerology@gmail.com"
 
   }
 ]
