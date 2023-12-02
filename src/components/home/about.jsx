@@ -21,9 +21,9 @@ export default function About() {
                  <br/>
                  <p className='text-white md:text-lg text-[16px]  font-[400]  opacity-70 '>
               
-                 Speciality : name solutions according numerrology by individual dates. Name solutions for company and product with catchy and meaningful. Name solutions for born baby names with devotion and positive meaning. 
+                 Speciality : Name solutions according to numerrology by individual dates. Name solutions for company and product with catchy and meaningful. Name solutions for born baby names with devotion and positive meaning. 
 <br/>
-                 Other specialization : providing lucky colors for branding. Providing graphology tips for company logo and individual signature                 
+                 Other specialization : Providing lucky colors for branding. Providing graphology tips for company logo and individual signature                 
                      </p>
                  <br/>
 
@@ -40,7 +40,7 @@ export default function About() {
                 <div className=' col-span-5 md:col-span-3 flex items-center justify-start'>
 <div>
                  <h3 className='text-xl text-white mb-2' style={{fontFamily:"var(--headerFont)"}}>Contact Our Expert Numerologist</h3>
-          <a href='tel:+91011235111'>
+          <a href='tel:+919011235111'>
             <h2 className='md:text-3xl text-2xl font-bold text-[var(--accentColor)]'>{`+ (91) 9011235111`}</h2> 
             </a>  
   

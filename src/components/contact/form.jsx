@@ -8,7 +8,7 @@ function ContactPage() {
 
 
 
-  const [state, handleSubmit] = useForm("mbjvwdky") ;
+  const [state, handleSubmit] = useForm("moqoobde") ;
   const [disable, setDisabled] = useState(false)
 
   useEffect(()=>{
@@ -77,9 +77,9 @@ function ContactPage() {
 
   },  {
     icon:MdMail,
-    link:"mailto:ichalakranjinumerology@gmail.com",
+    link:"mailto:Ichalkaranjinumerology@gmail.com",
     color:"text-[#e01919]",
-    title:"ichalakranjinumerology@gmail.com"
+    title:"Ichalkaranjinumerology@gmail.com"
 
   }
 ]

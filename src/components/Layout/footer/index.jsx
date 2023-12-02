@@ -106,7 +106,7 @@ export default function Footer() {
 
       <br/>
 
-<small className='text-center text-[12px] text-gray-200 block text-brand opacity-70 p-2 bg-[#183f58]'>Copyright © neumarology 2023</small>
+<small className='text-center text-[12px] text-gray-200 block text-brand opacity-70 p-2 bg-[#183f58]'>Copyright © Ichalkaranjinumerology 2023</small>
 
     </footer>
   )

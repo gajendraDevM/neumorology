@@ -12,11 +12,11 @@ export default function About() {
             {/* <h2 className="text-white text-3xl my-4">About Shakya</h2> */}
             <h3 className="text-gray-300 text-sm mt-5 text-inter text-center md:text-left md:text-sm lg:text-lg xl:text-xl">
             <b className='mb-4' >Speciality</b> : <br/>
-            name solutions according numerrology by individual dates. Name solutions for company and product with catchy and meaningful. Name solutions for born baby names with devotion and positive meaning. 
+            Name solutions according to numerrology by individual dates. Name solutions for company and product with catchy and meaningful. Name solutions for born baby names with devotion and positive meaning. 
           <br/>
           <br/>
 
-            <b className='mb-4' >SOther specialization</b> : <br/>providing lucky colors for branding. Providing graphology tips for company logo and individual signature
+            <b className='mb-4' >Other specialization</b> : <br/>Providing lucky colors for branding. Providing graphology tips for company logo and individual signature
             </h3>
           </div>  
 

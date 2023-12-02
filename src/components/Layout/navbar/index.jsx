@@ -34,7 +34,7 @@ export default function Navbar() {
   return (
     <div className=' bg-[--brandColor]  md:px-5 px-2 sticky top-0 z-30 '  >
         <div className='flex items-center md:w-[85%] w-[90%] mx-auto h-16'>
-        <div className='flex items-center gap-x-4'>
+        <div className='flex items-center gap-x-2'>
        <img src={logo} className='w-12' alt="" />
        <h1 className='text-[#f5f5f5] text-xl  leading-[1.1]' >Ichlkranji Numerrology</h1>   
 
