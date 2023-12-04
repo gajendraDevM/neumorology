@@ -28,7 +28,12 @@ export default function Navbar() {
         {
             label:"Contact",
             path:"/contact"
-        }
+        },
+ {
+            label:"Payment Details",
+            path:"/payement_details"
+        },
+        
     ] 
 
   return (

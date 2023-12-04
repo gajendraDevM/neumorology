@@ -16,7 +16,7 @@ export default function Services() {
   const cards = [
     { title: "Vehicle Number", price:"₹1,500.00", description: "Numbers plays a vital role in your life and so does Your vehicle number is important. It shows your identity. Let's make it valuable with numerology. ", imageSrc:  <AiFillCar/> },
     { title: "Company Name (LLP or pvt.ltd", price:"₹9,600.00",  description: "Choosing a company name is a crucial decision, as it plays a significant role in branding and representing your business. ", imageSrc: <FaBuilding/> },
-     { title: "Company Name (small sacale)",  price:"₹6,000.00", description: "Choosing a company name is a crucial decision, as it plays a significant role in branding and representing your business. ", imageSrc: <FaBuilding/> },
+     { title: "Company Name (small scale)",  price:"₹6,000.00", description: "Choosing a company name is a crucial decision, as it plays a significant role in branding and representing your business. ", imageSrc: <FaBuilding/> },
 
    
     { title: "Born  Boy Name", price:"₹4,200.00", description: "Every Name has hidden power of a number. If it matches well then it will be helpful for the person.For the same we suggest the name according to number that increases the luck of a baby for her future.", imageSrc: <FaBaby/> },

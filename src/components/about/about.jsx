@@ -24,7 +24,7 @@ export default function About() {
           </div>
     </div>
     <div className="container mx-auto mt-8 p-4 text-white opacity-70">
-      <h1 className="text-4xl font-bold mb-4   " style={{fontFamily:"var(--headerFont)"}} >Company Information</h1>
+      <h1 className="md:text-4xl text-3xlfont-bold mb-4   " style={{fontFamily:"var(--headerFont)"}} >Company Information</h1>
       <div className="grid grid-cols-2 gap-4">
         <div>
           <h2 className="text-xl font-semibold">Established</h2>

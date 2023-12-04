@@ -86,7 +86,7 @@ function ContactPage() {
 
 
   return (
-      <div className="container md:w-[60%] pb-6 mx-auto md:px-6 px-2 ">
+      <div className="container pb-6 mx-auto md:px-6 px-2 ">
   <section className="mb-8 ">
 { state.errors &&  <ValidationError 
         prefix="Message" 
@@ -152,7 +152,7 @@ function ContactPage() {
 <div className=" p-5 rounded-lg text-gray-400  text-center  ">
     <div className='flex flex-col justify-center  gap-4'>
     {/* <FaMapMarkerAlt className='text-xl text-red-700' /> : Solage Mala, Ichalkaranji, Maharashtra 416121 */}
-   <p className='font-semibold' > Address </p> 
+   <p className='font-semibold text-xl ' > Address </p> 
     <p> Solage Mala, Ichalkaranji, Maharashtra 416121</p>
       </div> 
     <hr className='py-2'/>
@@ -161,7 +161,7 @@ function ContactPage() {
 </div>
 
 
-<ul className='flex justify-center flex-col items-center gap-y-1'>
+<ul className='flex justify-center flex-col items-start gap-y-1'>
   {
     socialmedia.map((item, i)=>{
 
