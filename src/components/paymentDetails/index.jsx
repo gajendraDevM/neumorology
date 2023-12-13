@@ -15,6 +15,10 @@ export default function PaymentDetails() {
           <h2 className="text-xl font-semibold">Account number </h2>
           <p>409001878616</p>
         </div>
+         <div>
+          <h2 className="text-xl font-semibold">Bank name </h2>
+          <p> RBL bank</p>
+        </div>
         <div>
           <h2 className="text-xl font-semibold">IFSC Code</h2>
           <p>RATN0000040</p>
